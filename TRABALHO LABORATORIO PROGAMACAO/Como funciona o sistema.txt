@@ -1,17 +1,22 @@
-Disciplina: LaboratÛrio de ProgramaÁ„o
-Professor: F·bio Oliveira Silva
-Aluna: Bianca dos Santos GonÁalves
-Desenvolvimento de AplicaÁ„o CRUD em Python ñ Cronograma de Atividades
+Disciplina: Laborat√≥rio de Programa√ß√£o
+Professor: F√°bio Oliveira Silva
+Aluna: Bianca dos Santos Gon√ßalves
+Desenvolvimento de Aplica√ß√£o CRUD em Python ‚Äì Cronograma de Atividades
 
 * Tema escolhido: Cronograma de atividades
-O tema escolhido foi um cronograma de atividades que funciona como uma agenda simples e pr·tica, permitindo que um estudante ñ ou qualquer pessoa que precise organizar compromissos ñ registrem suas tarefas ao longo da semana, informando o dia, hor·rio e descriÁ„o da atividade a ser realizada.
+O tema escolhido foi um cronograma de atividades que funciona como uma agenda simples e pr√°tica, permitindo que um estudante
+‚Äì ou qualquer pessoa que precise organizar compromissos ‚Äì registrem suas tarefas ao longo da semana, informando o dia, hor√°rio e descri√ß√£o da atividade a ser realizada.
 
 * O que o sistema faz
-O sistema permite ao usu·rio gerenciar suas atividades por meio do menu interativo no terminal. As operaÁıes seguem o modelo CRUD, permitindo cadastrar novas atividades, listar todas as registradas, consultar uma atividade especÌfica pelo ID, atualizar informaÁıes j· cadastradas e excluir atividades. AlÈm disso, o programa trata erros de entrada com try/except, valida campos obrigatÛrios para evitar dados vazios e impede o cadastro de campos obrigatÛrios vazios. Os dados s„o armazenados em um arquivo JSON, garantindo persistÍncia das informaÁıes mesmo apÛs o encerramento do sistema.
+O sistema permite ao usu√°rio gerenciar suas atividades por meio do menu interativo no terminal. As opera√ß√µes seguem o modelo CRUD, permitindo cadastrar novas atividades, 
+listar todas as registradas, consultar uma atividade espec√≠fica pelo ID, atualizar informa√ß√µes j√° cadastradas e excluir atividades. Al√©m disso, o programa trata erros de 
+entrada com try/except, valida campos obrigat√≥rios para evitar dados vazios e impede o cadastro de campos obrigat√≥rios vazios. Os dados s√£o armazenados em um arquivo JSON, 
+garantindo persist√™ncia das informa√ß√µes mesmo ap√≥s o encerramento do sistema.
 
 * Como o CRUD foi aplicado
 Como descrito acima, o CRUD foi aplicado da seguinte forma:
-1. CREATE(CRIAR): o usu·rio pode cadastrar uma nova atividade informado o dia, hor·rio e descriÁ„o.
-2. READ(LER): o sistema permite listar todas as atividades ou consultar uma atividade especÌfica pelo ID.
-3. UPDATE(ATUALIZAR): o usu·rio pode modificar os dados de uma atividade j· cadastrada.
+1. CREATE(CRIAR): o usu√°rio pode cadastrar uma nova atividade informado o dia, hor√°rio e descri√ß√£o.
+2. READ(LER): o sistema permite listar todas as atividades ou consultar uma atividade espec√≠fica pelo ID.
+3. UPDATE(ATUALIZAR): o usu√°rio pode modificar os dados de uma atividade j√° cadastrada.
 4. DELETE(EXCLUIR): o sistema permite excluir uma atividade existente.
+
