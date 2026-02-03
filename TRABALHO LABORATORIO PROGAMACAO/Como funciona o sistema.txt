@@ -1,0 +1,23 @@
+Disciplina: Laboratório de Programação
+Professor: Fábio Oliveira Silva
+Aluna: Bianca dos Santos Gonçalves
+Desenvolvimento de Aplicação CRUD em Python – Cronograma de Atividades
+
+* Tema escolhido: Cronograma de atividades
+O tema escolhido foi um cronograma de atividades que funciona como uma agenda simples e prática, permitindo 
+que um estudante – ou qualquer pessoa que precise organizar compromissos – registrem suas tarefas ao longo
+ da semana, informando o dia, horário e descrição da atividade a ser realizada.
+
+* O que o sistema faz
+O sistema permite ao usuário gerenciar suas atividades por meio do menu interativo no terminal. As operações seguem o modelo CRUD, 
+permitindo cadastrar novas atividades, listar todas as registradas, consultar uma atividade específica pelo ID, atualizar informações 
+já cadastradas e excluir atividades. Além disso, o programa trata erros de entrada com try/except, valida campos obrigatórios para evitar 
+dados vazios e impede o cadastro de campos obrigatórios vazios. Os dados são armazenados em um arquivo JSON, garantindo persistência das
+ informações mesmo após o encerramento do sistema.
+
+* Como o CRUD foi aplicado
+Como descrito acima, o CRUD foi aplicado da seguinte forma:
+1. CREATE(CRIAR): o usuário pode cadastrar uma nova atividade informado o dia, horário e descrição.
+2. READ(LER): o sistema permite listar todas as atividades ou consultar uma atividade específica pelo ID.
+3. UPDATE(ATUALIZAR): o usuário pode modificar os dados de uma atividade já cadastrada.
+4. DELETE(EXCLUIR): o sistema permite excluir uma atividade existente.
