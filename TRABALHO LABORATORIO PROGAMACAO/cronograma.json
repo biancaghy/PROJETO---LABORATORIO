@@ -1,0 +1,20 @@
+[
+    {
+        "id": 1,
+        "dia": "Segunda-feira",
+        "horario": "07:00 - 08:00",
+        "atividade": "Estudar português"
+    },
+    {
+        "id": 2,
+        "dia": "Terça-feira",
+        "horario": "09:00 - 10:00",
+        "atividade": "Ler páginas 371 a 381 (matemática)"
+    },
+    {
+        "id": 3,
+        "dia": "Quinta-feira",
+        "horario": "15:00 - 16:30",
+        "atividade": "Fazer exerícios de Laboratório de Programação (6 ao 10 - página 173)"
+    }
+]
